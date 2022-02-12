@@ -6,8 +6,8 @@ import Message from "../Messages/messages";
 import io from "socket.io-client";
 import "./chat.css";
 
-//const END_POINT = "https://safe-tor-36719.herokuapp.com/";
-const END_POINT = "http://localhost:8080";
+const END_POINT = "https://safe-tor-36719.herokuapp.com/";
+//const END_POINT = "http://localhost:8080";
 let socket = io(END_POINT);
 
 const Chat = (props) => {
